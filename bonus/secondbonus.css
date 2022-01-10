@@ -1,0 +1,25 @@
+.picture .container-fluid{
+  margin: 100px 0 0 0;
+}
+.sky,
+.center{
+  background-color: rgb(72, 146, 255);
+}
+.flex{
+  display: flex;
+  height: 75px;
+}
+.ptop40{
+  padding-top: 40px;
+}
+.ptop50{
+  padding-top: 50px;
+}
+.row img{
+  vertical-align: bottom;
+}
+.block-ground{
+  background-image: url(../img/blockground.png);
+  height: 120px;
+  background-size: cover;
+}
