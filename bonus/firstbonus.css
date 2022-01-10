@@ -1,0 +1,41 @@
+
+/* Rules Framework */
+
+.jc-cent{
+  justify-content: center;
+}
+.jc-end{
+  justify-content: flex-end;
+}
+.jc-start{
+  justify-content: flex-start;
+}
+.jc-spacebt{
+  justify-content: space-between;
+}
+.jc-spacear{
+  justify-content: space-around;
+}
+.ai-top{
+  align-items: flex-start;
+}
+.ai-cent{
+  align-items: center;
+}
+.ai-bot{
+  align-items: flex-end;
+}
+
+/* Common Rules */
+
+.big-box{
+  background-color: rgb(0, 108, 250);
+  min-height: 80px;
+  text-align: center;
+  color: #fff;
+  border: 1px solid white;
+  padding: 10px ;
+}
+.big-box > .row{
+  height: 80px;
+}
