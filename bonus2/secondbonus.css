@@ -1,5 +1,7 @@
-.picture .container-fluid{
-  margin: 100px 0 0 0;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .sky,
 .center{
@@ -19,7 +21,10 @@
   vertical-align: bottom;
 }
 .block-ground{
-  background-image: url(../img/blockground.png);
+  background-image: url(./img/blockground.png);
   height: 120px;
   background-size: cover;
+}
+.ai-bot{
+  align-items: flex-end;
 }
